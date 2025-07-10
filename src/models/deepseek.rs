@@ -72,7 +72,7 @@ impl super::AIModel for DeepSeek
 
     fn tokenizer(&self) -> anyhow::Result<tokenizers::Tokenizer> 
     {
-        let path = Path::new("models").join("deepseek").join("deepseek_tokenizer.json");
+        let path = Path::new("models").join("deepseek").join("tokenizer.json");
         if path.exists()
         {
             Tokenizer::from_file(path).map_err(anyhow::Error::msg)
