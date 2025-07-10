@@ -1,0 +1,18 @@
+[10-07-2025 11:02:40]-[orfography::models::qwen:69]:💬 Информация -> loaded 310 tensors (390.75MB) in 2.37s
+[10-07-2025 11:02:56]-[orfography::models::qwen:78]:💬 Информация -> model built
+[10-07-2025 14:47:18]-[orfography::models:128]:💬 Информация -> loaded 310 tensors (390.75MB) in 1.66s
+[10-07-2025 14:47:37]-[orfography::models::qwen:76]:💬 Информация -> model built
+[10-07-2025 14:49:15]-[orfography::models:484]:💬 Информация -> 
+
+ 200 prompt tokens processed: 21.10 token/s
+[10-07-2025 14:49:15]-[orfography::models:489]:💬 Информация ->  331 tokens generated: 5.44 token/s
+[10-07-2025 15:36:42]-[orfography::models:130]:💬 Информация -> loaded 310 tensors (390.75MB) in 1.59s
+[10-07-2025 15:36:46]-[orfography::models::qwen:76]:💬 Информация -> model built
+[10-07-2025 15:44:23]-[orfography::models:130]:💬 Информация -> loaded 310 tensors (390.75MB) in 1.52s
+[10-07-2025 15:44:23]-[orfography::models::qwen:76]:💬 Информация -> model built
+[10-07-2025 15:46:17]-[orfography::models:130]:💬 Информация -> loaded 310 tensors (390.75MB) in 1.55s
+[10-07-2025 15:46:17]-[orfography::models::qwen:76]:💬 Информация -> model built
+[10-07-2025 15:48:17]-[orfography::models:130]:💬 Информация -> loaded 310 tensors (390.75MB) in 1.53s
+[10-07-2025 15:48:18]-[orfography::models::qwen:76]:💬 Информация -> model built
+[10-07-2025 15:50:15]-[orfography::models:130]:💬 Информация -> loaded 310 tensors (390.75MB) in 1.61s
+[10-07-2025 15:50:16]-[orfography::models::qwen:76]:💬 Информация -> model built

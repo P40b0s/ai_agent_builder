@@ -1,0 +1,17 @@
+[package]
+name = "ai_agent_builder"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio= {version = "*", features = ["full"]}
+serde ={ version = "*", features = ["derive"]}
+serde_json="*"
+candle-transformers = {git = "https://github.com/huggingface/candle.git", package="candle-transformers"}
+tokenizers ="0.21.2"
+candle_core = {git = "https://github.com/huggingface/candle.git", package="candle-core"}
+anyhow="*"
+hf-hub="0.4.3"
+logger = {git = "https://github.com/P40b0s/logger.git"}
+utilites = {git = "https://github.com/P40b0s/help_utilites.git", package = "utilites"}
+futures="*"
