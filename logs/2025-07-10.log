@@ -16,3 +16,13 @@
 [10-07-2025 15:48:18]-[orfography::models::qwen:76]:💬 Информация -> model built
 [10-07-2025 15:50:15]-[orfography::models:130]:💬 Информация -> loaded 310 tensors (390.75MB) in 1.61s
 [10-07-2025 15:50:16]-[orfography::models::qwen:76]:💬 Информация -> model built
+[10-07-2025 16:55:31]-[ai_agent_builder::models:127]:💬 Информация -> loaded 310 tensors (390.75MB) in 1.75s
+[10-07-2025 16:55:58]-[ai_agent_builder::models::qwen:74]:💬 Информация -> model built
+[10-07-2025 16:57:29]-[ai_agent_builder::models:493]:💬 Информация -> 
+
+ 198 prompt tokens processed: 16.00 token/s
+[10-07-2025 16:57:29]-[ai_agent_builder::models:498]:💬 Информация ->  207 tokens generated: 4.86 token/s
+[10-07-2025 17:06:22]-[ai_agent_builder::models:493]:💬 Информация -> 
+
+ 173 prompt tokens processed: 21.87 token/s
+[10-07-2025 17:06:22]-[ai_agent_builder::models:498]:💬 Информация ->  213 tokens generated: 5.33 token/s

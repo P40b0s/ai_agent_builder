@@ -19,28 +19,6 @@ impl Default for DeepSeek
 
 impl DeepSeek
 {
-    // pub fn new_with_settings(settings: ModelSettings) -> anyhow::Result<Self> 
-    // {
-    //     let slf = Self::default();
-    //     let model = slf.get_model()?;
-    //     Ok(Self 
-    //     { 
-    //         settings,
-    //         model: Some(model),
-    //         system_prompt: None
-    //     })
-    // }
-    // pub fn new() -> anyhow::Result<Self> 
-    // {
-    //     let slf = Self::default();
-    //     let model = slf.get_model()?;
-    //     Ok(Self 
-    //     { 
-    //         settings: slf.settings,
-    //         model: Some(model),
-    //         system_prompt: None
-    //     })
-    // }
     fn get_model(&self) -> anyhow::Result<candle_transformers::models::quantized_qwen2::ModelWeights> 
     {
         let (content, mut file) = self.load_tensors()?;
@@ -58,7 +36,6 @@ impl super::AIModel for DeepSeek
     fn get_name(&self) -> &'static str 
     {
         "DeepSeek-R1-Distill-Qwen-1.5B-Q5_K_M.gguf"
-        //let path = Path::new("models").join("deepseek").join("DeepSeek-R1-Distill-Qwen-1.5B-Q5_K_M.gguf")
     }
 
     fn get_size(&self) -> &'static str 
